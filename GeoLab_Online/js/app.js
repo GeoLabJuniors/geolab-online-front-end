@@ -45,6 +45,13 @@ $(document).ready(function($) {
 
 	});
 
+	$('.lectures_filter button').click(function(event) {
+		/* Act on the event */
+		event.preventDefault();
+		$('.lectures_filter button span').toggleClass('rotate');
+
+	});
+
 });
 
 
