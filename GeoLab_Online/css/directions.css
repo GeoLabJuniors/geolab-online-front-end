@@ -20,7 +20,7 @@
 .direction_addres a:hover {
 	color: #478ECC;
 }
-.direction_intro {
+.direction_intro, .lesson_intro {
 	padding: 20px 40px 40px;
 }
 .directions_menu ul li {
