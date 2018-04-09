@@ -76,7 +76,9 @@ a:hover, a:focus, a:active {
 .block_title, .block_title a {
 	font-size: 28px;
 	color: #478ECC;
+	display: block;
 }
+
 .block_body {
 	margin-top: 35px;
 }
@@ -149,6 +151,7 @@ a:hover, a:focus, a:active {
 .lesson_desc {
 	margin: 5px 20px;
 	color: #787E86;
+	font-size: 14px;
 }
 .lesson_desc a {
 	font-size: 14px;
@@ -192,10 +195,14 @@ a:hover, a:focus, a:active {
 .about {
 	margin-bottom: 40px;
 }
-.about_intro, .direction_intro, .lesson_intro {
+.about_intro, .direction_intro {
 	font-size: 18px;
 	color: #787E86;
 	padding: 10px 15px 10px 0px;
+}
+.lesson_intro {
+	font-size: 14px;
+	color: #787E86;
 }
 .about ul li a {
 	font-size: 18px;

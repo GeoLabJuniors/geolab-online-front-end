@@ -34,3 +34,28 @@
 .lector_name {
 	color: #787E86;
 }
+.lesson_inner_page .silabusi {
+	margin: 50px 0px;
+}
+.lesson_inner_page .lesson_wrapper {
+	margin: 30px;
+}
+.lesson_inner_page .lesson_name {
+	border-radius: 4px;
+	background-color: #DCE1ED;
+	font-size: 18px;
+	margin-bottom: 18px;
+	padding: 6px 14px;
+}
+.lesson_inner_page .lesson_name a {
+	display: block;
+	color: #478ECC;
+}
+.lesson_inner_page .locked {
+	background-image: url(../images/lock.png);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+.lesson_inner_page .locked a {
+	color: #787E86;
+}
