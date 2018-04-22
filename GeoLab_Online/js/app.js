@@ -52,6 +52,28 @@ $(document).ready(function($) {
 
 	});
 
+
+	$('.desc_holder').on('click', '.close_btn', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+		$(this).parents(".note").fadeOut('fast');
+	});
+
+	$('.desc_holder').on('click', '.note_icon', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+
+		$(this).siblings('.note').fadeIn('fast');
+	});
+
+	$('.user_lessons_page .main_content .row .col-md-4:nth-child(3) .note').css(
+		{"left" : "auto", "right" : "0", "margin-left" : "0px", "margin-right" : "30px"}
+		);
+
+	if ($('.user_lessons_page .main_content .row').hasClass('last_row')) {
+		$('.user_lessons_page .main_content .last_row .note').css({"top" : "auto", "bottom" : "-30px"});
+	}
+
 });
 
 
