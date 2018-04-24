@@ -346,11 +346,11 @@ footer {
 	margin-top: 50px;
 }
 .filter_box {
-	padding: 0px 80px 80px 80px;
+	padding: 0px 80px 40px 80px;
 }
 
 .filter_box ul li {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .filter_box ul li label {
 	color: #787E86;
@@ -433,7 +433,6 @@ footer {
 /*--- Filter Box Checks ------*/
 
 .filter_box {
-	margin: 0px 0px 30px 0px;
 	display: block;
 	padding-left: 35px;
 	cursor: pointer;
