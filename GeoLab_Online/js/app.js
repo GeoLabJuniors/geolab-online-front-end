@@ -59,11 +59,19 @@ $(document).ready(function($) {
 		$(this).parents(".note").fadeOut('fast');
 	});
 
+	var closer = true;
+
 	$('.desc_holder').on('click', '.note_icon', function(event) {
 		event.preventDefault();
 		/* Act on the event */
-
-		$(this).siblings('.note').fadeIn('fast');
+		if(closer) {
+			$(this).siblings('.note').fadeIn('fast');
+			closer = false;
+		} else {
+			$('.note').fadeOut('fast');
+			$(this).siblings('.note').fadeIn('fast');
+		}
+	
 	});
 
 	$('.user_lessons_page .main_content .row .col-md-4:nth-child(3) .note').css(
