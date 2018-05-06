@@ -39,7 +39,6 @@
     border-radius: 3px;
 }
 
-
 .lecture_menu li {
 	background-color: #DCE1ED;
 	border-radius: 10px;
@@ -69,8 +68,13 @@
 }
 .lecture_text_box p {
 	font-size: 14px;
-	padding: 25px;
+	padding: 0px 25px 0px;
 	color: #787E86;
+	height: 420px;
+	overflow-y: auto;
+	border-top: 25px solid #DCE1ED;
+	border-bottom: 25px solid #DCE1ED;
+	margin: 0px;
 }
 .lecture_desc {
 	width: 100%;
@@ -106,3 +110,39 @@
 .on {
 	display: block;
 }
+
+/* width */
+.lecture_item p::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* Track */
+.lecture_item p::-webkit-scrollbar-track {
+    background: #DCE1ED;
+}
+ 
+/* Handle */
+.lecture_item p::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Handle on hover */
+.lecture_item p::-webkit-scrollbar-thumb:hover {
+    background: #715774;
+}
+
+.lecture_text_box {
+	overflow: hidden;
+}
+
+.lecture_desc .note p {
+	height: 420px;
+}
+
+.note form {
+	background-color: #DCE1ED;
+}
+

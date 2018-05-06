@@ -1,0 +1,32 @@
+#cke_18 {
+	display: none;
+}
+
+.note_form {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#cke_editor {
+	height: 100%;
+	border: none;
+}
+.lecture_inner_page .note_form {
+	height: 420px;
+}
+
+#cke_editor .cke_inner {
+	height: 100%;
+}
+
+#cke_1_contents {
+	height: 90% !important;
+}
+
+.cke_editable  {
+	background-color: #DCE1ED !important;
+	line-height: 1.1 !important;
+}
+.note_form p {
+	background-color: blue !important;
+}
